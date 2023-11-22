@@ -1,0 +1,114 @@
+[
+    {
+        "id" : "0",
+        "bank": "HSBC",
+        "card": "Red",
+        "cardImage": "HSBC_Red",
+        "basicCashback": 0.01,
+        "cardCashback": {"Online":0.03,"Supermarket": 0.01},
+        "cashbackLimit": 500,
+        "LimitPeriod": 30,
+        "promo":"4% Online"
+        
+    },
+    {
+        "id" : "1",
+        "bank": "HSBC",
+        "card": "Platinum",
+        "cardImage": "HSBC_Plat",
+        "basicCashback": 0.004,
+        "cardCashback": {"Your Choice - Dining":0.00,"Your Choice - Overseas":0.00,"Your Choice - Health and Leisure":0.00,"Your Choice - Home":0.00,"Your Choice - Lifestyle":0.00,"Overseas":0.02},
+        "cashbackLimit": 100000,
+        "LimitPeriod": 365,
+        "promo":"2.4% on your choice"
+        
+    },
+    {
+        "id" : "2",
+        "bank": "HSBC",
+        "card": "Gold",
+        "cardImage": "HSBC_Gold",
+        "basicCashback": 0.004,
+        "cardCashback": {"Your Choice - Dining":0.00,"Your Choice - Overseas":0.00,"Your Choice - Health and Leisure":0.00,"Your Choice - Home":0.00,"Your Choice - Lifestyle":0.00},
+        "cashbackLimit": 100000,
+        "LimitPeriod": 365,
+        "promo":"2.4% on your choice"
+        
+    },
+    {
+        "id" : "3",
+        "bank": "BOCHK",
+        "card": "Chill",
+        "cardImage": "BOCHK_Chill",
+        "cardCashback": {"Chill":0.096,"Overseas":0.046 ,"Online":0.046, "Mobile Payment":0.046},
+        "basicCashback": 0.004,
+        "cashbackLimit": 150,
+        "LimitPeriod": 30,
+        "promo":"10% on selected merchants"
+        
+    },
+    {
+        "id" : "4",
+        "bank": "Hang Seng Bank",
+        "card": "MMPower",
+        "cardImage": "HASE_MMPower",
+        "basicCashback": 0.004,
+        "cardCashback": {"Your Choice - Mobile Payment":0.0,"Online":0.046,"Your Choice - Dining":0.0, "Your Choice - Entertainment":0.0,"Your Choice - Electronics":0.0,"Your Choice - Overseas":0.0},
+        "cashbackLimit": 800,
+        "LimitPeriod": 30,
+        "promo":"5% on your choice"
+        
+    },
+    {
+        "id" : "5",
+        "bank": "CITIC",
+        "card": "Motion",
+        "cardImage": "CITIC_Motion",
+        "cardCashback": {"Dining":0.06 , "Online":0.06},
+        "basicCashback": 0.005,
+        "cashbackLimit": 200,
+        "LimitPeriod": 30,
+        "promo":"6% on selected merchants"
+        
+    },
+    {
+        "id" : "6",
+        "bank": "American Express",
+        "card": "Blue Cash",
+        "cardImage": "AmEx_Blue",
+        "basicCashback": 0.012,
+        "promo":"1.2% unlimited"
+        
+    },
+    {
+        "id" : "7",
+        "bank": "Citibank",
+        "card": "Cashback",
+        "cardImage": "Citi_Cashback",
+        "cardCashback": {"Dining":0.02},
+        "basicCashback": 0.01,
+        "promo":"2% on FX purchase"
+        
+    },
+    {
+        "id" : "8",
+        "bank": "Standard Chartered",
+        "card": "Simply Cash",
+        "cardImage": "SCB_SimplyCash",
+        "cardCashback": {"FX":0.02},
+        "basicCashback": 0.015,
+        "promo":"1.5% unlimited"
+        
+    },
+    {
+        "id" : "9",
+        "bank": "Standard Chartered",
+        "card": "Smart",
+        "cardImage": "SCB_Smart",
+        "cardCashback": {"PARKnSHOP":0.074445,"Selected":0.044445},
+        "basicCashback": 0.005555,
+        "cashbackLimit": 3000,
+        "promo":"8% PARKnSHOP"
+        
+    }
+]

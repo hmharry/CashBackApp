@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PurchaseHistory" representedClassName="PurchaseHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="bankname" optional="YES" attributeType="String"/>
+        <attribute name="cardname" optional="YES" attributeType="String"/>
+        <attribute name="cashbackamount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cashbackbasic" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cashbackextra" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cashbackpercent" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="merchant" optional="YES" attributeType="String"/>
+        <attribute name="pricepurch" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Usercard" representedClassName=".Usercard" syncable="YES" codeGenerationType="class">
+        <attribute name="bankname" optional="YES" attributeType="String"/>
+        <attribute name="basicCashback" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cardimage" optional="YES" attributeType="String"/>
+        <attribute name="cardname" optional="YES" attributeType="String"/>
+        <attribute name="cashbackGain" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cashbackLimit" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="docbexpire" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dopayment" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="limitperiod" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="promo" optional="YES" attributeType="String"/>
+        <attribute name="spending" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="spendingcashback" optional="YES" attributeType="String"/>
+    </entity>
+</model>
